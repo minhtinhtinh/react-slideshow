@@ -1,1 +1,2 @@
 # react-slideshow
+first changes
