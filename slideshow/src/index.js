@@ -11,6 +11,10 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+//set timeout để rút khỏi DOM
+setTimeout(() => {
+  ReactDOM.unmountComponentAtNode(document.getElementById('root'));}, 10000);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
